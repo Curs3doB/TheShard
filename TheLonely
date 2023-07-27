@@ -1,0 +1,6 @@
+local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/Curs3doB/HELLo/main/WLC", true))() 
+if whitelistecheck[_G.key] then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Curs3doB/TheShard/main/The", true))()
+else
+game:service('Players').LocalPlayer:Kick('Not Whitelisted')
+end
