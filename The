@@ -1,7 +1,6 @@
---dupe free (passive)
 
-getgenv().type = "Dataloss" --Change to "Undo" if you want to Undo the dataloss
 
+getgenv().type = "Dataloss" 
 if type == "Dataloss" then
 local args = {
     [1] = {
