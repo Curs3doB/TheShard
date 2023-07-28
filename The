@@ -1,5 +1,3 @@
-
-
 getgenv().type = "Dataloss" 
 if type == "Dataloss" then
 local args = {
